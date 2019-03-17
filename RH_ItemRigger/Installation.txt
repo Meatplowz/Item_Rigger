@@ -1,0 +1,15 @@
+Installation:
+Copy the RH_ItemRigger.mod file to your documents/maya/modules folder.
+-If this folder doesn't exist, you can create it.
+
+Edit the RH_ItemRigger.mod file in a text editor.
+- In the first line change "d:\RH_ItemRigger" to the location of the "RH_ItemRigger" folder on your maching.
+- Example: + RH_ItemRigger 1.0 d:\maya_tools\RH_ItemRigger
+
+Restart Maya
+
+After restarting you can paste the following code into your script editor, new Python tab.
+import rh_item_rigger
+rh_item_rigger.run()
+
+You can copy and drag this code to your shelf, to create a button.
